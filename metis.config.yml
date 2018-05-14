@@ -1,0 +1,11 @@
+project_token: 723179cd61d3e6bbe877ae33
+name: my-weather-predictor
+jobs:
+  - job_id: 3af8c526-816f-49c0-9610-10229dfefe7b
+    language: python
+    name: Main
+    entrypoint: main.py
+    resources:
+      limits:
+        cpu: 6
+        memory: 2Gi
